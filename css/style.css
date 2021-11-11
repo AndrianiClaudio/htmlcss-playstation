@@ -4,6 +4,14 @@
     --font-base-color: 0,0,0;
 }
 
+*::first-letter {
+    text-transform: uppercase;
+}
+body {
+    min-width: 300px;
+    font-family: "Helvetica, arial, sans-serif";
+}
+
 .bg-black {
     background-color: rgb(var(--font-base-color));
 }
