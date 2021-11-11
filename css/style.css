@@ -7,3 +7,7 @@
 .bg-black {
     background-color: rgb(var(--font-base-color));
 }
+
+.pt-6 {
+    padding-top: 10rem!important;
+}
