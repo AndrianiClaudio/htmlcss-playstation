@@ -1,0 +1,9 @@
+:root {
+    --blue-color: 0, 67, 156;
+    --dark-color: 31, 31, 31;
+    --font-base-color: 0,0,0;
+}
+
+.bg-black {
+    background-color: rgb(var(--font-base-color));
+}
