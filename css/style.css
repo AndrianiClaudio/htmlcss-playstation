@@ -2,6 +2,9 @@
     --blue-color: 0, 67, 156;
     --dark-color: 31, 31, 31;
     --font-base-color: 0,0,0;
+
+    --h-header-top: 40px;
+    --h-header-bottom: 100px;
 }
 
 *::first-letter {
@@ -12,6 +15,9 @@ body {
     font-family: "Helvetica, arial, sans-serif";
 }
 
+.fill-white {
+    fill:white;
+}
 .bg-black {
     background-color: rgb(var(--font-base-color));
 }
