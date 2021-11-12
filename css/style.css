@@ -10,11 +10,19 @@
 *::first-letter {
     text-transform: uppercase;
 }
+
 body {
     min-width: 300px;
     font-family: "Helvetica, arial, sans-serif";
+    overflow-x: hidden;
 }
-
+.header-top svg {
+    height: var(--h-header-top);
+    width: 100px;
+}
+.ms-rounded-circle {
+    border-radius: 2em;
+}
 .fill-white {
     fill:white;
 }
