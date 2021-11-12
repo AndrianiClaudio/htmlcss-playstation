@@ -38,6 +38,10 @@ body {
     width: 100%;
 }
 
+.header-bottom,
+.header-bottom  button {
+    font-size: 1.3rem;
+}
 .header-bottom svg.position-absolute {
     height: 100%;
     bottom: 0;
