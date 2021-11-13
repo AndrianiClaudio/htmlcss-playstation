@@ -16,12 +16,19 @@ body {
     font-family: "Helvetica, arial, sans-serif";
     overflow-x: hidden;
 }
-.header-top svg {
+.header {
+    z-index: 100;
+}
+.header-top .logo {
     height: var(--h-header-top);
     width: 100px;
 }
 .ms-rounded-circle {
     border-radius: 2em;
+}
+.ms-chevron-down {
+    content: url("../img/chevron-down-solid.svg");
+    height: 0.8rem;
 }
 .fill-white {
     fill:white;
@@ -33,15 +40,19 @@ body {
 .pt-6 {
     padding-top: 10rem!important;
 }
+.px-6 {
+    padding-right: 6rem;
+    padding-left: 6rem;
+}
 .image {
     height: 200px;
     width: 100%;
 }
-
 .header-bottom,
+.header-bottom span,
 .header-bottom button,
 .header-bottom a {
-    font-size: 1.2em;
+    font-size: 1.1rem;
 }
 .header-bottom svg.position-absolute {
     height: 100%;
@@ -49,4 +60,14 @@ body {
 }
 .header-bottom button:active {
     border: 0;
+}
+
+.header-bottom a > span:active {
+    color: blue;
+}
+
+img.position-absolute {
+    height: 100%;
+    top: 0;
+    left: 0;
 }
