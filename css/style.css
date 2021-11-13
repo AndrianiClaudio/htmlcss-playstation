@@ -24,9 +24,6 @@ body {
     height: var(--h-header-top);
     width: 100px;
 }
-.ms-rounded-circle {
-    border-radius: 2em;
-}
 .ms-chevron-down {
     content: url("../img/chevron-down-solid.svg");
     height: 0.8rem;
@@ -42,7 +39,7 @@ body {
 }
 
 .pt-6 {
-    padding-top: 10rem!important;
+    padding-top: 6rem!important;
 }
 .px-6 {
     padding-right: 6rem!important;
@@ -91,4 +88,13 @@ img.position-absolute {
 }
 .ms-rounded {
     border-radius: 1em;
+}
+#title-label-blue {
+    font-size: 1rem;
+}
+h1,h2,h3,h4 {
+    font-weight: 700;
+}
+.ms-font-2 {
+    font-size: 1.5rem;
 }
