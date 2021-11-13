@@ -74,6 +74,10 @@ img.position-absolute {
     background-size: cover;
     
 }
+#header-jumbo .position-absolute {
+    bottom: 50px;
+    left: 20px;
+}
 .logo {
     max-width: 100%;
 }
