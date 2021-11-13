@@ -2,7 +2,7 @@
     --blue-color: 0, 67, 156;
     --dark-color: 31, 31, 31;
     --font-base-color: 0,0,0;
-
+    --ms-warning-color: 205, 61, 15;
     --h-header-top: 40px;
     --h-header-bottom: 100px;
 }
@@ -15,6 +15,7 @@ body {
     min-width: 300px;
     font-family: "Helvetica, arial, sans-serif";
     overflow-x: hidden;
+    font-size: 1.1rem;
 }
 .header {
     z-index: 100;
@@ -29,6 +30,9 @@ body {
 .ms-chevron-down {
     content: url("../img/chevron-down-solid.svg");
     height: 0.8rem;
+}
+.ms-btn-warning {
+    background-color: rgb(var(--ms-warning-color));
 }
 .fill-white {
     fill:white;
@@ -48,12 +52,6 @@ body {
     height: 200px;
     width: 100%;
 }
-.header-bottom,
-.header-bottom span,
-.header-bottom button,
-.header-bottom a {
-    font-size: 1.1rem;
-}
 img.position-absolute {
     height: 100%;
     top: 0;
@@ -65,4 +63,15 @@ img.position-absolute {
 .collapse#dropdown hr {
     height: 2px;
     width: 100%;
+}
+
+#header-jumbo {
+    background-image: url("../img/returnal-listing-thumb-01-ps5.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.logo {
+    max-width: 100%;
 }
