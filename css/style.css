@@ -41,8 +41,8 @@ body {
     padding-top: 10rem!important;
 }
 .px-6 {
-    padding-right: 6rem;
-    padding-left: 6rem;
+    padding-right: 6rem!important;
+    padding-left: 6rem!important;
 }
 .image {
     height: 200px;
@@ -54,20 +54,15 @@ body {
 .header-bottom a {
     font-size: 1.1rem;
 }
-.header-bottom svg.position-absolute {
-    height: 100%;
-    bottom: 0;
-}
-.header-bottom button:active {
-    border: 0;
-}
-
-.header-bottom a > span:active {
-    color: blue;
-}
-
 img.position-absolute {
     height: 100%;
     top: 0;
     left: 0;
+}
+.header-bottom form a:hover {
+    cursor: pointer;
+}
+.collapse#dropdown hr {
+    height: 2px;
+    width: 100%;
 }

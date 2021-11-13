@@ -29,7 +29,7 @@
             </div>
         </div>
         <!-- header-bottom -->
-        <div class="header-bottom bg-white py-3 ">
+        <div class="header-bottom bg-white">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                     <!-- navbar brand -->
@@ -38,51 +38,114 @@
                     </a>
                     <!-- dropdown button -->
                     <button class="navbar-toggler p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-                        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        aria-controls="navbarScroll" aria-expanded="false">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <!-- from lg display: navbar expand -->
-                    <div class="collapse navbar-collapse" id="navbarScroll">
-                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
-                            <li class="nav-item d-flex align-items-center">
-                                <a class="nav-link active mr-2" aria-current="page" href="#">Giochi</a>
+                    <div class="collapse navbar-collapse justify-content-lg-between" id="navbarScroll">
+                        <ul class="navbar-nav me-auto mt-2 my-lg-0 navbar-nav-scroll" id="dropdrop">
+                            <li class="nav-item d-flex align-items-center mr-2">
+                                <a class="d-lg-none nav-link active mr-1" href="#">Giochi</a>
+                                <a class="d-none d-lg-flex nav-link active mr-1" href="#dropdown" role="button" data-bs-toggle="collapse"
+                                    data-bs-target="#dropdown" aria-controls="dropdown" aria-expanded="false">Giochi</a>
                                 <span class="ms-chevron-down"></span>
                             </li>
-                            <li class="nav-item d-flex align-items-center">
-                                <a class="nav-link active mr-2" aria-current="page" href="#">Hardware</a>
+                            <li class="nav-item d-flex align-items-center mr-2">
+                                <a class="d-lg-none nav-link active mr-1" href="#">Hardware</a>
+                                <a class="d-none d-lg-flex nav-link active mr-1" href="#dropdown2" role="button" data-bs-toggle="collapse"
+                                    data-bs-target="#dropdown2" aria-controls="dropdown" aria-expanded="false">Hardware</a>
                                 <span class="ms-chevron-down"></span>
                             </li>
-                            <li class="nav-item d-flex align-items-center">
-                                <a class="nav-link active mr-2" aria-current="page" href="#">Servizi</a>
+                            <li class="nav-item d-flex align-items-center mr-2">
+                                <a class="d-lg-none nav-link active mr-1" href="#">Servizi</a>
+                                <a class="d-none d-lg-flex nav-link active mr-1" href="#dropdown" role="button" data-bs-toggle="collapse"
+                                    data-bs-target="#dropdown" aria-controls="#dropdown" aria-expanded="false">Servizi</a>
                                 <span class="ms-chevron-down"></span>
                             </li>
-                            <li class="nav-item d-flex align-items-center">
-                                <a class="nav-link active mr-2" aria-current="page" href="#">Novit&aacute;</a>
+                            <li class="nav-item d-flex align-items-center mr-2">
+                                <a class="d-lg-none nav-link active mr-1" href="#">Novita&acute;</a>
+                                <a class="d-none d-lg-flex nav-link active mr-1" href="#dropdown" role="button" data-bs-toggle="collapse"
+                                    data-bs-target="#dropdown" aria-controls="#dropdown" aria-expanded="false">Novit&aacute;</a>
                                 <span class="ms-chevron-down"></span>
                             </li>
-                            <li class="nav-item d-flex align-items-center">
-                                <a class="nav-link active mr-2" aria-current="page" href="#">Fai acquisti</a>
+                            <li class="nav-item d-flex align-items-center mr-2">
+                                <a class="d-lg-none nav-link active mr-1" href="#">Fai acquisti</a>
+                                <a class="d-none d-lg-flex nav-link active mr-1" href="#dropdown" role="button" data-bs-toggle="collapse"
+                                    data-bs-target="#dropdown" aria-controls="#dropdown" aria-expanded="false">Fai acquisti</a>
                                 <span class="ms-chevron-down"></span>
                             </li>
-                            <li class="nav-item d-flex align-items-center">
-                                <a class="nav-link active mr-2" aria-current="page" href="#">Supporto</a>
+                            <li class="nav-item d-flex align-items-center mr-2">
+                                <a class="d-lg-none nav-link active mr-1" href="#">Supporto</a>
+                                <a class="d-none d-lg-flex nav-link active mr-1" href="#dropdown" role="button" data-bs-toggle="collapse"
+                                    data-bs-target="#dropdown" aria-controls="#dropdown" aria-expanded="false">Supporto</a>
                                 <span class="ms-chevron-down"></span>
                             </li>
-                            <li class="nav-item d-flex align-items-center">
-                                <a class="nav-link active mr-2" aria-current="page" href="#">My Playstation</a>
-                                <span class="ms-chevron-down"></span>
-                            </li>
-                            
-                        <form class="d-flex flex-column">
-                            <button class="btn btn-dark ms-rounded-circle text-white px-6 align-self-start mb-2" type="submit">Accedi</button>
-                            <div class="position-relative">
-                                <input class="form-control me-2" type="search">
+                        </ul>
+                        <form class="d-flex flex-column flex-lg-row pt-2 pt-lg-0">
+                            <div class="d-flex align-items-center">
+                                <a class="d-none d-lg-flex nav-link text-dark active mr-1" href="#dropdown" role="button" data-bs-toggle="collapse"
+                                    data-bs-target="#dropdown" aria-controls="#dropdown" aria-expanded="false">MyPlaystation</a>
+                                <span class="ms-chevron-down mr-2"></span>
+                            </div>
+                            <button class="btn btn-dark ms-rounded-circle text-white px-6 px-lg-3 align-self-start mb-2 mb-lg-0" type="submit">Accedi</button>
+                            <div class="position-relative d-lg-none">
+                                <input class="form-control mr-2" type="search">
                                 <img class="position-absolute py-1" src="img/lens.svg">
                             </div>
+                            <svg class="d-none d-lg-flex align-self-center ml-2" width="1.1rem" height="1.1rem" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50" data-di-rand="1620204969111">
+                                <g>
+                                    <path
+                                        d="M8,20.913 C8,14.344 13.344,9 19.913,9 C26.482,9 31.827,14.344 31.827,20.913 C31.827,27.482 26.482,32.827 19.913,32.827 C13.344,32.827 8,27.482 8,20.913 M45.112,43.585 L32.346,30.82 C34.518,28.099 35.827,24.658 35.827,20.913 C35.827,12.139 28.688,5 19.913,5 C11.139,5 4,12.139 4,20.913 C4,29.688 11.139,36.827 19.913,36.827 C23.503,36.827 26.808,35.618 29.474,33.604 L42.284,46.413 C42.674,46.804 43.186,46.999 43.698,46.999 C44.209,46.999 44.721,46.804 45.112,46.413 C45.502,46.023 45.698,45.511 45.698,44.999 C45.698,44.488 45.502,43.976 45.112,43.585">
+                                    </path>
+                                </g>
+                            </svg>
                         </form>
                     </div>
                 </div>
             </nav>
+            <div class="collapse" id="dropdown" data-parent='#dropdrop'>
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col-1 d-flex flex-column align-items-center">
+                            <img class="image-fluid" src="img/play-menu-ico.png">
+                            <span>PS5</span>
+                        </div>
+                        <div class="col-1 d-flex flex-column align-items-center">
+                            <img class="image-fluid" src="img/play-menu-ico.png">
+                            <span>PS5</span>
+                        </div>
+                        <div class="col-1 d-flex flex-column align-items-center">
+                            <img class="image-fluid" src="img/play-menu-ico.png">
+                            <span>PS5</span>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <hr class="bg-light">
+                    </div>
+                </div>
+            </div>
+            <div class="collapse" id="dropdown2" data-parent='#dropdrop'>
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col-1 d-flex flex-column align-items-center">
+                            <img class="image-fluid" src="img/play-menu-ico.png">
+                            <span>PS5222</span>
+                        </div>
+                        <div class="col-1 d-flex flex-column align-items-center">
+                            <img class="image-fluid" src="img/play-menu-ico.png">
+                            <span>PS52222</span>
+                        </div>
+                        <div class="col-1 d-flex flex-column align-items-center">
+                            <img class="image-fluid" src="img/play-menu-ico.png">
+                            <span>PS5</span>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <hr class="bg-light">
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
     <!-- /HEADER -->
