@@ -66,8 +66,10 @@ img.position-absolute {
 }
 
 #header-jumbo {
-    background-image: url("../img/returnal-listing-thumb-01-ps5.jpg");
-    background-position: right;
+    background-image: url("../img/jumbo-bg.png");
+    height: 700px;
+    padding-top:100px;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     
