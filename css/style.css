@@ -70,9 +70,16 @@ img.position-absolute {
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    
 }
-#header-jumbo .position-absolute {
+#main-jumbo {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+#header-jumbo .position-absolute, #main-jumbo .position-absolute {
     bottom: 50px;
     left: 20px;
 }
@@ -98,6 +105,6 @@ h1,h2,h3,h4 {
 .ms-font-2 {
     font-size: 1.5rem;
 }
-.border-bottom {
-    
+.border-bottom-thumb {
+    border-bottom: 2px solid;
 }
