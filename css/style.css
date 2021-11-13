@@ -72,6 +72,7 @@ img.position-absolute {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
     
 }
 #header-jumbo .position-absolute {
@@ -80,4 +81,14 @@ img.position-absolute {
 }
 .logo {
     max-width: 100%;
+}
+
+.ms-border {
+    padding: 0.25rem!important;
+}
+.ms-w-90 {
+    width: 95%;
+}
+.ms-rounded {
+    border-radius: 1em;
 }
