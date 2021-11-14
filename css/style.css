@@ -152,6 +152,10 @@ button > span{
     font-size: 1rem;
 }
 
+.footer-bottom {
+    font-size: 1rem;
+}
+
 /* schermi lg */
 /*  X-Large devices (larger desktops, 1200px and up) */
 @media screen and (min-width: 1200px) { 
