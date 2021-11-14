@@ -15,7 +15,7 @@ body {
     min-width: 300px;
     font-family: "Helvetica, arial, sans-serif";
     overflow-x: hidden;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 .header {
     z-index: 100;
@@ -127,4 +127,8 @@ h1,h2,h3,h4 {
 }
 .header-bottom a.collapsed .ms-chevron-down{
     transform: rotate(360deg);
+}
+
+footer a:visited {
+    color: white;
 }
