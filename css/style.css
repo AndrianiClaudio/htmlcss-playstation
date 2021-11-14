@@ -96,6 +96,9 @@ img.position-absolute {
 .ms-rounded {
     border-radius: 1.2rem;
 }
+.ms-rounded-mini {
+    border-radius: 0.9rem;
+}
 #title-label-blue {
     font-size: 1rem;
 }
@@ -123,5 +126,5 @@ h1,h2,h3,h4 {
     color: black!important;
 }
 .header-bottom a.collapsed .ms-chevron-down{
-    transform: rotate(180deg);
+    transform: rotate(360deg);
 }
