@@ -109,9 +109,6 @@ h1,h2,h3,h4 {
 .border-bottom-thumb {
     border-bottom: 2px solid;
 }
-.ms-ul-sub {
-    list-style-type: disc;
-}
 
 .header-bottom a:focus {
     color: blue!important;
@@ -155,7 +152,6 @@ button > span{
 .footer-bottom {
     font-size: 1rem;
 }
-
 /* schermi lg */
 /*  X-Large devices (larger desktops, 1200px and up) */
 @media screen and (min-width: 1200px) { 
@@ -168,4 +164,18 @@ button > span{
         max-width: 40%!important;
     }
 
+}
+
+
+.header-bottom ul.d-flex-justify-content-center.py-3::marker {
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.disc-blue {
+    display: inline-block;
+    height: 0.2rem;
+    width: 0.2rem;
+    border-radius: 50%;
+    background-color: blue;
 }
