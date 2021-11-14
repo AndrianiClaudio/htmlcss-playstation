@@ -80,10 +80,6 @@ img.position-absolute {
     background-size: cover;
     overflow: hidden;
 }
-#header-jumbo .position-absolute, #main-jumbo .position-absolute {
-    bottom: 50px;
-    left: 20px;
-}
 .logo {
     max-width: 100%;
 }
@@ -152,8 +148,12 @@ footer a:visited {
         width: 50%!important;
         max-width: 50%!important;
     }
+    .w-lg-40 {
+        width: 40%!important;
+        max-width: 40%!important;
+    }
 
 }
-.ms-btn-font {
+button > span{
     font-size: 1.2rem;
 }
