@@ -147,9 +147,9 @@ footer a:visited {
 /* schermi lg */
 /*  X-Large devices (larger desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-    .w-lg-25 {
-        width: 25%!important;
-        max-width: 25%!important;
+    .w-lg-50 {
+        width: 50%!important;
+        max-width: 50%!important;
     }
 
 }
