@@ -94,9 +94,6 @@ img.position-absolute {
     padding: 0.25rem;
     color: blue;
 }
-.ms-w-90 {
-    width: 95%;
-}
 .ms-rounded {
     border-radius: 1rem;
 }
@@ -104,6 +101,7 @@ img.position-absolute {
     border-radius: 0.9rem;
 }
 #title-label-blue {
+    font-weight: 600;
     font-size: 1rem;
 }
 h1,h2,h3,h4 {
