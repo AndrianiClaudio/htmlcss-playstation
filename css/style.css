@@ -10,12 +10,15 @@
 *::first-letter {
     text-transform: uppercase;
 }
-
+.ms-btn-warning {
+    background-color: rgb(var(--ms-warning-color));
+}
 body {
     min-width: 300px;
     font-family: "Helvetica, arial, sans-serif";
     overflow-x: hidden;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 .header {
     z-index: 100;
@@ -28,9 +31,7 @@ body {
     content: url("../img/chevron-down-solid.svg");
     height: 0.8rem;
 }
-.ms-btn-warning {
-    background-color: rgb(var(--ms-warning-color));
-}
+
 .fill-white {
     fill:white;
 }
@@ -118,6 +119,9 @@ h1,h2,h3,h4 {
 .header-bottom a:focus {
     color: blue!important;
 }
+.header-bottom a:focus > span {
+    fill: blue!important;
+}
 .header-bottom a:focus .ms-chevron-down{
     transform: rotate(180deg);
 }
@@ -131,4 +135,24 @@ h1,h2,h3,h4 {
 
 footer a:visited {
     color: white;
+}
+
+.ms-h-60 {
+    height: 60%;
+}
+
+.pt-jumbo {
+    padding-top: 12rem;
+}
+/* schermi lg */
+/*  X-Large devices (larger desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .w-lg-25 {
+        width: 25%!important;
+        max-width: 25%!important;
+    }
+
+}
+.ms-btn-font {
+    font-size: 1.2rem;
 }

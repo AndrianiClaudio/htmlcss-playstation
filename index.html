@@ -2,7 +2,8 @@
 
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+        <!-- FONTAWESOME -->
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
             integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
         <!-- BOOTSTRAP CSS -->
@@ -48,6 +49,7 @@
                                     <a class="d-none d-lg-flex nav-link align-items-center  active mr-1" href="#dropdown" role="button"
                                         data-bs-toggle="collapse" data-bs-target="#dropdown" aria-controls="dropdown"
                                         aria-expanded="false">Giochi<span class="ml-2 ms-chevron-down"></span></a>
+                                        
                                     
                                 </li>
                                 <li class="nav-item d-flex align-items-center mr-2">
@@ -59,7 +61,7 @@
                                 </li>
                                 <li class="nav-item d-flex align-items-center mr-2">
                                     <a class="d-lg-none nav-link align-items-center active mr-1" href="#">Servizi<span class="ml-2 ms-chevron-down"></span></a>
-                                    <a class="d-none d-lg-flex nav-link active  align-items-center mr-1 disabled disabled disabled" href="#dropdown" role="button"
+                                    <a class="d-none d-lg-flex nav-link active  align-items-center mr-1 " href="#dropdown" role="button"
                                         data-bs-toggle="collapse" data-bs-target="#dropdown" aria-controls="#dropdown"
                                         aria-expanded="false">Servizi<span class="ml-2 ms-chevron-down"></span></a>
                                    
@@ -91,7 +93,7 @@
                             </ul>
                             <form class="d-flex flex-column flex-lg-row p-lg-0 m-lg-0">
                                 <div class="d-none d-lg-flex align-items-center">
-                                    <a class="nav-link text-dark active mr-1" href="#dropdown" role="button"
+                                    <a class="d-flex align-items-center nav-link text-dark active mr-1" href="#dropdown" role="button"
                                         data-bs-toggle="collapse" data-bs-target="#dropdown" aria-controls="#dropdown"
                                         aria-expanded="false">My Playstation<span class="ms-chevron-down ml-2"></span></a>
                                     
@@ -100,7 +102,7 @@
                                     class="d-lg-none btn btn-dark ms-rounded text-white px-lg-3 px-6 align-self-start mb-2"
                                     type="submit">Accedi</button>
                                 <button
-                                    class="d-none d-lg-flex btn btn-dark ms-rounded text-white  align-self-start"
+                                    class="d-none d-lg-flex btn btn-dark ms-rounded text-white my-auto align-self-start"
                                     type="submit">Accedi</button>
                                 <div class="position-relative d-lg-none">
                                     <input class="form-control mr-2" type="search">
@@ -150,18 +152,26 @@
         </header>
         <!-- /HEADER -->
         <!-- JUMBOTRON -->
-        <section class="jumbotron text-white position-relative" id="header-jumbo">
-            <div class="container position-absolute">
-                <div class="row flex-column">
-                    <div class="col-8 col-md-7 col-lg-4 col-xl-3 mb-3">
-                        <img class="logo img-fluid" src="img/returnal-hero-banner-logo.png">
+        <section class="jumbotron text-white" id="header-jumbo">
+            <div class="container-fluid d-flex h-100 pt-jumbo  justify-content-end">
+                <div class="row">
+                    <div class="col-8 col-lg-6 col-xl-3">
+                        <img class="img-fluid" src="img/returnal-hero-banner-logo.png">
+
                     </div>
-                    <h1 class="pb-4">Rompi il cerchio</h1>
-                    <p class="pb-2">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo
-                        esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.
-                    </p>
-                    <button class="btn ms-btn-warning align-self-start ms-rounded"><span class="text-white">Acquista
-                            ora</span></button>
+                    <div class="col-12">
+                        <h1 class="">Rompi il cerchio</h1>
+                    </div>
+                    <div class="col-12">
+                        <p class="">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo
+                            esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.
+                        </p>
+
+                    </div>
+                    <div class="col-12">
+                        <button class="btn ms-btn-warning align-self-start ms-rounded ms-btn-font"><span class="text-white">Acquista ora</span></button>
+
+                    </div>
 
                 </div>
             </div>
