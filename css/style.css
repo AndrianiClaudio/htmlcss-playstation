@@ -141,9 +141,20 @@ footer a:visited {
 .pt-jumbo {
     padding-top: 12rem;
 }
+#psplus .btn-light {
+    background-color: lightgrey;
+    border-color: lightgrey;
+}
+button > span{
+    font-size: 1.2rem;
+}
+#nuoveUscite {
+    font-size: 1rem;
+}
+
 /* schermi lg */
 /*  X-Large devices (larger desktops, 1200px and up) */
-@media (min-width: 1200px) { 
+@media screen and (min-width: 1200px) { 
     .w-lg-50 {
         width: 50%!important;
         max-width: 50%!important;
@@ -153,11 +164,4 @@ footer a:visited {
         max-width: 40%!important;
     }
 
-}
-button > span,
-p{
-    font-size: 1.2rem;
-}
-#nuoveUscite {
-    font-size: 1rem;
 }
