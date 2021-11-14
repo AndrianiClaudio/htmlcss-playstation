@@ -154,6 +154,10 @@ footer a:visited {
     }
 
 }
-button > span{
+button > span,
+p{
     font-size: 1.2rem;
+}
+#nuoveUscite {
+    font-size: 1rem;
 }
