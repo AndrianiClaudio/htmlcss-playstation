@@ -108,3 +108,20 @@ h1,h2,h3,h4 {
 .border-bottom-thumb {
     border-bottom: 2px solid;
 }
+.ms-ul-sub {
+    list-style-type: disc;
+}
+
+.header-bottom a:focus {
+    color: blue!important;
+}
+.header-bottom a:focus .ms-chevron-down{
+    transform: rotate(180deg);
+}
+
+.header-bottom a.collapsed {
+    color: black!important;
+}
+.header-bottom a.collapsed .ms-chevron-down{
+    transform: rotate(180deg);
+}
