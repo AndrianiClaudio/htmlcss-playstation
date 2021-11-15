@@ -6,12 +6,11 @@
     --h-header-top: 40px;
     --h-header-bottom: 100px;
 }
-
 *::first-letter {
     text-transform: uppercase;
 }
-.ms-btn-warning {
-    background-color: rgb(var(--ms-warning-color));
+img:hover {
+    cursor: pointer;
 }
 body {
     min-width: 300px;
@@ -20,25 +19,19 @@ body {
     font-size: 1.2rem;
     font-weight: 500;
 }
-.header {
-    z-index: 100;
+h1,h2,h3,h4 {
+    font-weight: 700;
 }
-.header-top .logo {
-    height: var(--h-header-top);
-    width: 100px;
+button > span{
+    font-size: 1.2rem;
 }
-.ms-chevron-down {
-    content: url("../img/chevron-down-solid.svg");
-    height: 0.8rem;
+.ms-font-2 {
+    font-size: 1.5rem;
 }
-
-.fill-white {
-    fill:white;
+.logo {
+    max-width: 100%;
 }
-.bg-black {
-    background-color: rgb(var(--font-base-color));
-}
-
+/* padding */
 .pt-6 {
     padding-top: 6rem!important;
 }
@@ -46,44 +39,7 @@ body {
     padding-right: 6rem!important;
     padding-left: 6rem!important;
 }
-.image {
-    height: 200px;
-    width: 100%;
-}
-img.position-absolute {
-    height: 100%;
-    top: 0;
-    left: 0;
-}
-.header-bottom form a:hover {
-    cursor: pointer;
-}
-.collapse#dropdown hr {
-    height: 2px;
-    width: 100%;
-}
-
-#header-jumbo {
-    background-image: url("../img/jumbo-bg.png");
-    height: 700px;
-    padding-top:100px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-}
-#main-jumbo {
-    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
-    height: 700px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-}
-.logo {
-    max-width: 100%;
-}
-
+/* border */
 .ms-border {
     box-sizing: content-box;
     border: 2px solid!important;
@@ -96,20 +52,44 @@ img.position-absolute {
 .ms-rounded-mini {
     border-radius: 0.9rem;
 }
-#title-label-blue {
-    font-weight: 600;
-    font-size: 1rem;
-}
-h1,h2,h3,h4 {
-    font-weight: 700;
-}
-.ms-font-2 {
-    font-size: 1.5rem;
-}
 .border-bottom-thumb {
     border-bottom: 2px solid;
 }
+/* color */
+button {
+    box-shadow: 0 0 0 0.2rem inherit;
+}
+.ms-btn-primary,
+.ms-btn-primary:hover,
+.ms-btn-primary:active,
+.ms-btn-primary:focus {
+    background-color: blue;
+    color: white;
+}
+.ms-btn-warning {
+    background-color: rgb(var(--ms-warning-color));
+}
+.bg-black {
+    background-color: rgb(var(--font-base-color));
+}
+/* svg */
+.ms-chevron-down {
+    content: url("../img/chevron-down-solid.svg");
+    height: 0.8rem;
+}
+.fill-white {
+    fill:white;
+}
+img.position-absolute {
+    height: 100%;
+    top: 0;
+    left: 0;
+}
 
+.header-bottom a:hover {
+    color: blue!important;
+}
+/* focus */
 .header-bottom a:focus {
     color: blue!important;
 }
@@ -119,36 +99,118 @@ h1,h2,h3,h4 {
 .header-bottom a:focus .ms-chevron-down{
     transform: rotate(180deg);
 }
-
+/* hover */
+#lg-header-lens:hover {
+    cursor: pointer;
+}
+.header-bottom form a:hover {
+    cursor: pointer;
+}
+.hover-border:hover {
+    border: 3px solid lightgrey;
+    cursor: pointer;
+}
+.header-bottom .collapse#dropdown .list-inline .list-inline-item a:hover {
+    cursor: pointer;
+}
+.btn-container:hover  {
+    background-color: white;
+    border: 1px solid #343a40;
+    cursor: pointer;
+}
+/* header */
+.header {
+    z-index: 100;
+}
+.header-top .logo {
+    height: var(--h-header-top);
+    width: 100px;
+}
+.navbar-toggler.collapsed {
+    outline: 1px solid lightgrey;
+}
+.navbar-toggler.collpasing,
+.navbar-toggler.collapse.show  {
+    outline: 4px solid lightgrey;
+}
+.navbar-toggler[aria-expanded="true"]:focus {
+    outline: 4px solid grey;
+}
+.navbar-light .navbar-toggler {
+    border-color: grey;
+}
+/* collapse */
+.collapse#dropdown hr {
+    height: 2px;
+    width: 100%;
+}
+.btn-container {
+    background-color: #343a40;
+    padding: 0.1rem;
+}
+#collapse.hover-border {
+    box-sizing: content-box;
+}
+#collapse.hover-border > img {
+    max-width: 100%;
+}
+#navbarScrool .d-lg-none a:hover {
+    cursor: pointer;
+}
+/* from js .. .collapsed */
 .header-bottom a.collapsed {
     color: black!important;
 }
 .header-bottom a.collapsed .ms-chevron-down{
     transform: rotate(360deg);
 }
-
-footer a:visited {
-    color: white;
+/* jumbotron */
+#header-jumbo {
+    background-image: url("../img/jumbo-bg.png");
+    height: 700px;
+    padding-top:100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }
-
-.ms-h-60 {
-    height: 60%;
-}
-
 .pt-jumbo {
     padding-top: 12rem;
 }
-#psplus .btn-light {
-    background-color: lightgrey;
-    border-color: lightgrey;
+#main-jumbo {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }
-button > span{
-    font-size: 1.2rem;
+/* main */
+main > header img:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
 }
+button:hover {
+    border:3px solid rgba(245, 245, 245, 0.849);
+}
+
+#title-label-blue {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
 #nuoveUscite {
     font-size: 1rem;
 }
 
+#psplus .btn-light {
+    background-color: lightgrey;
+    border-color: lightgrey;
+}
+/* footer */
+footer a:visited {
+    color: white;
+}
 .footer-bottom {
     font-size: 1rem;
 }

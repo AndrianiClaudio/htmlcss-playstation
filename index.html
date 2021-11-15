@@ -45,7 +45,7 @@
                         <div class="collapse navbar-collapse align-items-center justify-content-lg-between" id="navbarScroll">
                             <ul class="navbar-nav me-auto mt-2 my-lg-0 navbar-nav-scroll">
                                 <li class="nav-item d-flex  mr-2">
-                                    <a class="d-lg-none nav-link align-items-center active mr-1 disabled" href="#">Giochi<span class="ml-2 ms-chevron-down"></span></a>
+                                    <a class="d-lg-none nav-link align-items-center active mr-1 " href="#">Giochi<span class="ml-2 ms-chevron-down"></span></a>
                                     <a class="d-none d-lg-flex nav-link align-items-center  active mr-1" href="#dropdown" role="button"
                                         data-bs-toggle="collapse" data-bs-target="#dropdown" aria-controls="dropdown"
                                         aria-expanded="false">Giochi<span class="ml-2 ms-chevron-down"></span></a>
@@ -53,7 +53,7 @@
                                     
                                 </li>
                                 <li class="nav-item d-flex align-items-center mr-2">
-                                    <a class="d-lg-none nav-link align-items-center active mr-1 disabled disabled" href="#">Hardware<span class="ml-2 ms-chevron-down"></span></a>
+                                    <a class="d-lg-none nav-link align-items-center active mr-1 " href="#">Hardware<span class="ml-2 ms-chevron-down"></span></a>
                                     <a class="d-none d-lg-flex nav-link  align-items-center  active mr-1" href="#dropdown2" role="button"
                                         data-bs-toggle="collapse" data-bs-target="#dropdown" aria-controls="dropdown"
                                         aria-expanded="false">Hardware<span class="ml-2 ms-chevron-down"></span></a>
@@ -67,20 +67,20 @@
                                    
                                 </li>
                                 <li class="nav-item d-flex align-items-center mr-2">
-                                    <a class="d-lg-none nav-link align-items-center active mr-1 disabled" href="#">Novita´<span class="ml-2 ms-chevron-down"></span></a>
+                                    <a class="d-lg-none nav-link align-items-center active mr-1 " href="#">Novita´<span class="ml-2 ms-chevron-down"></span></a>
                                     <a class="d-none d-lg-flex nav-link active  align-items-center mr-1" href="#dropdown" role="button"
                                         data-bs-toggle="collapse" data-bs-target="#dropdown" aria-controls="#dropdown"
                                         aria-expanded="false">Novitá<span class="ml-2 ms-chevron-down"></span></a>
                                     
                                 </li>
                                 <li class="nav-item d-flex align-items-center mr-2">
-                                    <a class="d-lg-none nav-link align-items-center active mr-1 disabled" href="#">Fai acquisti<span class="ml-2 ms-chevron-down"></span></a>
+                                    <a class="d-lg-none nav-link align-items-center active mr-1 " href="#">Fai acquisti<span class="ml-2 ms-chevron-down"></span></a>
                                     <a class="d-none d-lg-flex align-items-center nav-link active mr-1" href="#dropdown" role="button"
                                         data-bs-toggle="collapse" data-bs-target="#dropdown" aria-controls="#dropdown"
                                         aria-expanded="false">Fai acquisti<span class="ml-2 ms-chevron-down"></span></a>
                                 </li>
                                 <li class="nav-item d-flex mr-2  align-items-center">
-                                    <a class="d-lg-none nav-link align-items-center active mr-1 disabled" href="#">Supporto<span class="ml-2 ms-chevron-down"></span></a>
+                                    <a class="d-lg-none nav-link -items-center active mr-1" href="#"<span class="ml-2 ms-chevron-down"></span></a>
                                     <a class="d-none d-lg-flex align-items-center nav-link active mr-1" href="#dropdown" role="button"
                                         data-bs-toggle="collapse" data-bs-target="#dropdown" aria-controls="#dropdown"
                                         aria-expanded="false">Supporto<span class="ml-2 ms-chevron-down"></span></a>
@@ -94,23 +94,27 @@
                             <form class="d-flex flex-column flex-lg-row p-lg-0 m-lg-0">
                                 <div class="d-none d-lg-flex align-items-center">
                                     <a class="d-flex align-items-center nav-link text-dark active mr-1" href="#dropdown" role="button"
-                                        data-bs-toggle="collapse" data-bs-target="#dropdown" aria-controls="#dropdown"
-                                        aria-expanded="false">My Playstation<span class="ms-chevron-down ml-2"></span></a>
-                                    
+                                        data-bs-toggle="collapse" data-bs-target="#dropdown" aria-controls="#dropdown" aria-expanded="false">My
+                                        Playstation
+                                        <span class="ms-chevron-down ml-2"></span>
+                                    </a>
                                 </div>
-                                <button
-                                    class="d-lg-none btn btn-dark ms-rounded text-white px-lg-3 px-6 align-self-start mb-2"
-                                    type="submit">Accedi</button>
-                                <button
-                                    class="d-none d-lg-flex btn btn-dark ms-rounded text-white my-auto align-self-start"
-                                    type="submit">Accedi</button>
-                                <div class="position-relative d-lg-none">
-                                    <input class="form-control mr-2" type="search">
+                                <div class="d-block d-lg-none btn-container ms-rounded mb-2 text-center w-100">
+                                    <button class="btn btn-dark ms-rounded text-white w-100" type="submit">
+                                        <span>Accedi</span>
+                                    </button>
+                                </div>
+                                <div class="d-none d-lg-flex btn-container ms-rounded">
+                                    <button class="btn btn-dark ms-rounded text-white py-1 px-2 my-auto align-self-start" type="submit">
+                                        <span>Accedi</span>
+                                    </button>
+                                </div>
+                                <div class="position-relative d-lg-none" "="">
+                                                                <input class=" form-control mr-2" type="search">
                                     <img class="position-absolute py-1" src="img/lens.svg">
                                 </div>
-                                <svg class="d-none d-lg-flex align-self-center ml-2" width="1.1rem" height="1.1rem"
-                                    version="1.1" xmlns="http://www.w3.org/2000/svg"
-                                    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50"
+                                <svg class="d-none d-lg-flex align-self-center ml-2" id="lg-header-lens" width="1.1rem" height="1.1rem"
+                                    version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50"
                                     data-di-rand="1620204969111">
                                     <g>
                                         <path
@@ -125,15 +129,15 @@
                 <div class="collapse" id="dropdown">
                     <div class="container-fluid">
                         <div class="row justify-content-center">
-                            <div class="col-1 d-flex flex-column align-items-center">
+                            <div class="col-1 d-flex flex-column align-items-center hover-border">
                                 <img class="image-fluid" src="img/play-menu-ico.png">
                                 <span>PS5</span>
                             </div>
-                            <div class="col-1 d-flex flex-column align-items-center">
+                            <div class="col-1 d-flex flex-column align-items-center hover-border">
                                 <img class="image-fluid" src="img/play-menu-ico.png">
                                 <span>PS5</span>
                             </div>
-                            <div class="col-1 d-flex flex-column align-items-center">
+                            <div class="col-1 d-flex flex-column align-items-center hover-border">
                                 <img class="image-fluid" src="img/play-menu-ico.png">
                                 <span>PS5</span>
                             </div>
@@ -146,19 +150,19 @@
                                 <li class="list-inline-item">
                                     <div class="d-flex align-items-center">
                                         <div class="disc-blue mr-1"></div>
-                                        Sub Link
+                                        <a class="link text-dark">Sub Link</a>
                                     </div>
                                 </li>
                                 <li class="list-inline-item">
                                     <div class="d-flex align-items-center">
                                         <div class="disc-blue mr-1"></div>
-                                        Sub Link
+                                       <a class="link text-dark">Sub Link</a>
                                     </div>
                                 </li>
                                 <li class="list-inline-item">
                                     <div class="d-flex align-items-center">
                                         <div class="disc-blue mr-1"></div>
-                                        Sub Link
+                                        <a class="link text-dark">Sub Link</a>
                                     </div>
                                 </li>
                             </ul>
@@ -195,29 +199,31 @@
         <!-- /JUMBOTRON -->
         <!-- MAIN -->
         <main>
-            <!-- blocchi immagine giochi -->
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-6 col-sm-4 mb-2 col-lg pb-3">
-                        <img class="img-fluid ms-border ms-rounded-mini" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
-                    </div>
-                    <div class="col-6 col-sm-4 mb-2 col-lg pb-3">
-                        <img class="img-fluid ms-rounded-mini" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
-                    </div>
-                    <div class="col-6 col-sm-4 mb-2 col-lg pb-3">
-                        <img class="img-fluid ms-rounded-mini" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
-                    </div>
-                    <div class="col-6 col-sm-4 mb-2 col-lg pb-3">
-                        <img class="img-fluid ms-rounded-mini" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
-                    </div>
-                    <div class="col-6 col-sm-4 mb-2 col-lg pb-3">
-                        <img class="img-fluid ms-rounded-mini" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
-                    </div>
-                    <div class="col-6 col-sm-4 mb-2 col-lg pb-3">
-                        <img class="img-fluid ms-rounded-mini" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+            <header>
+                <!-- blocchi immagine giochi -->
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-6 col-sm-4 mb-2 col-lg pb-3">
+                            <img class="img-fluid ms-border ms-rounded-mini" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                        </div>
+                        <div class="col-6 col-sm-4 mb-2 col-lg pb-3">
+                            <img class="img-fluid ms-rounded-mini" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                        </div>
+                        <div class="col-6 col-sm-4 mb-2 col-lg pb-3">
+                            <img class="img-fluid ms-rounded-mini" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                        </div>
+                        <div class="col-6 col-sm-4 mb-2 col-lg pb-3">
+                            <img class="img-fluid ms-rounded-mini" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                        </div>
+                        <div class="col-6 col-sm-4 mb-2 col-lg pb-3">
+                            <img class="img-fluid ms-rounded-mini" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                        </div>
+                        <div class="col-6 col-sm-4 mb-2 col-lg pb-3">
+                            <img class="img-fluid ms-rounded-mini" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                        </div>
                     </div>
                 </div>
-            </div>
+            </header>
             <!-- blocchi immagine giochi -->
             <!-- main principale: playsyayion 5 - info -->
             <div class="container-fluid">
@@ -239,7 +245,7 @@
                         <h2 class="h1 font-weight-bold pb-3">Console Playstation 5</h2>
                         <p class="pb-2 text-secondary ms-font-2 font-weight-bold">Sperimenta la nuova generazione di
                             incredibili giochi Playstation.</p>
-                        <button class="d-flex align-self-start btn btn-primary ms-rounded"><span>Maggiori
+                        <button class="d-flex align-self-start btn ms-btn-primary ms-rounded"><span>Maggiori
                                 informazioni</span></button>
                     </div>
                     <div class="d-flex col-12 col-md-7">
@@ -373,21 +379,21 @@
                             <img class="img-fluid" src="img/ps4-slim-homepage-image-block.jpg">
                             <h2>Playstation 4</h2>
                             <h3 class="text-secondary  ms-font-2 pb-3">Giocni incredibili live su PS4&comma; con 1 TB di spazio di archiviazione.</h3>
-                            <button class="btn ms-rounded btn-primary">scopri di pi&ugrave;</button>
+                            <button class="btn ms-rounded ms-btn-primary">scopri di pi&ugrave;</button>
                         </div>
                         <!-- ps vr -->
                         <div class="col-12 col-lg-4 pt-5 pb-4 pl-md-0">
                             <img class="img-fluid" src="img/double11-202010-tw-psvr.jpg">
                             <h2>Playstation VR</h2>
                             <h3 class="text-secondary  ms-font-2 pb-3">Oltre 500 titoli ed eseperienzwe di gioco. Scoprili tutti.</h3>
-                            <button class="btn btn-primary ms-rounded">scopri di pi&ugrave;</button>
+                            <button class="btn ms-btn-primary ms-rounded">scopri di pi&ugrave;</button>
                         </div>
                         <!-- accessori -->
                         <div class="col-12 col-lg-4 pt-5 pb-4 pl-md-0">
                             <img class="img-fluid" src="img/dualshock-4-listing-thumb.jpg">
                             <h2>Accessori</h2>
                             <h3 class="text-secondary  ms-font-2 pb-3">Migliora la tua esperienza ps4 con una gamma di accessori ufficiali.</h3>
-                            <button class="btn btn-primary ms-rounded">Scopri di pu&ugrave;</button>
+                            <button class="btn ms-btn-primary ms-rounded">Scopri di pu&ugrave;</button>
                         </div>
                     </div>
                 </div>
