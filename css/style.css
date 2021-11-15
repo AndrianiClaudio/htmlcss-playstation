@@ -148,7 +148,7 @@ img.position-absolute {
     background-color: #343a40;
     padding: 0.1rem;
 }
-#collapse.hover-border > img {
+#collapse.hover-border > img alt=""{
     max-width: 100%;
 }
 #navbarScrool .d-lg-none a:hover {
