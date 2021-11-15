@@ -56,9 +56,9 @@ button > span{
     border-bottom: 2px solid;
 }
 /* color */
-button {
+/* button {
     box-shadow: 0 0 0 0.2rem inherit;
-}
+} */
 .ms-btn-primary,
 .ms-btn-primary:hover,
 .ms-btn-primary:active,
@@ -147,9 +147,6 @@ img.position-absolute {
 .btn-container {
     background-color: #343a40;
     padding: 0.1rem;
-}
-#collapse.hover-border {
-    box-sizing: content-box;
 }
 #collapse.hover-border > img {
     max-width: 100%;
