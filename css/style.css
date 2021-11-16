@@ -8,6 +8,9 @@
     --h-header-top: 40px;
     --h-header-bottom: 100px;
 }
+img:hover {
+    cursor: pointer;
+}
 *::first-letter {
     text-transform: uppercase;
 }
