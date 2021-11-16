@@ -58,6 +58,9 @@ button > span{
 button {
     line-height: 1;
 }
+.ms-bg-primary {
+    background-color: rgb(var(--blue-color));
+}
 .ms-btn-dark {
     background-color:rgb(var(--dark-color));
     outline: 2px solid rgb(var(--dark-color));
