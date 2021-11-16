@@ -1,8 +1,10 @@
 :root {
     --blue-color: 45, 100, 230;
     --dark-color: 31, 31, 31;
-    --font-base-color: 0,0,0;
     --ms-warning-color: 205, 61, 15;
+    --ms-secondary-color: 190, 188, 187;
+    --ms-btn-secondary-color: 217, 218, 220;
+    --font-base-color: 0,0,0;
     --h-header-top: 40px;
     --h-header-bottom: 100px;
 }
@@ -18,20 +20,6 @@ body {
 }
 h1,h2,h3,h4 {
     font-weight: 700;
-}
-button {
-    line-height: 1;
-}
-.btn-ms-dark {
-    background-color:rgb(var(--dark-color));
-}
-button.btn-ms-dark {
-    outline: 2px solid rgb(var(--dark-color));
-    border: 2px solid rgb(var(--dark-color));
-}
-button.btn-ms-dark:hover,
-button.btn-ms-dark:focus {
-    border: 2px solid white;
 }
 button > span{
     font-size: 1.2rem;
@@ -66,16 +54,59 @@ button > span{
 .border-bottom-thumb {
     border-bottom: 2px solid;
 }
-/* color */
-.ms-btn-primary,
-.ms-btn-primary:hover,
-.ms-btn-primary:active,
-.ms-btn-primary:focus {
-    background-color: rgb(var(--blue-color));
+/* button */
+button {
+    line-height: 1;
+}
+.ms-btn-dark {
+    background-color:rgb(var(--dark-color));
+    outline: 2px solid rgb(var(--dark-color));
+    border: 2px solid rgb(var(--dark-color));
     color: white;
 }
 .ms-btn-warning {
     background-color: rgb(var(--ms-warning-color));
+    outline: 2px solid rgb(var(--ms-warning-color));
+    border: 2px solid rgb(var(--ms-warning-color));
+    color: white;
+}
+.ms-btn-primary {
+    background-color: rgb(var(--blue-color));
+    outline: 2px solid rgb(var(--blue-color));border: 2px solid rgb(var(--blue-color));
+    color: white;
+}
+.ms-btn-secondary {
+    background-color: rgb(var(--ms-btn-secondary-color));
+    outline: 2px solid rgb(var(--ms-btn-secondary-color));
+    border: 2px solid rgb(var(--ms-btn-secondary-color));
+}
+.btn-light {
+    background-color: white;
+    outline: 2px solid white;
+    border: 2px solid white;
+}
+.btn-light:hover,
+.btn-light:focus {
+    background-color: white;
+}
+.ms-btn-secondary:hover,
+.ms-btn-secondary:focus,
+.ms-btn-warning:hover,
+.ms-btn-warning:focus,
+.btn-light:hover,
+.btn-light:focus {
+    border-color: black;
+}
+.ms-btn-dark:hover,
+.ms-btn-dark:focus,
+.ms-btn-primary:hover,
+.ms-btn-primary:focus {
+    border-color:white;
+    color: white;
+}
+/* color */
+.ms-bg-secondary {
+    background-color: rgb(var(--ms-secondary-color));
 }
 .bg-black {
     background-color: rgb(var(--font-base-color));
