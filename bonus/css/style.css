@@ -1,0 +1,276 @@
+:root {
+    --blue-color: 45, 100, 230;
+    --dark-color: 31, 31, 31;
+    --ms-warning-color: 205, 61, 15;
+    --ms-secondary-color: 190, 188, 187;
+    --ms-btn-secondary-color: 217, 218, 220;
+    --font-base-color: 0,0,0;
+    --h-header-top: 40px;
+    --h-header-bottom: 100px;
+}
+img:hover {
+    cursor: pointer;
+}
+*::first-letter {
+    text-transform: uppercase;
+}
+body {
+    min-width: 300px;
+    font-family: "Helvetica, arial, sans-serif";
+    overflow-x: hidden;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+h1,h2,h3,h4,.h1 {
+    font-weight: 700;
+}
+button > span{
+    font-size: 1.2rem;
+}
+.ms-font-2 {
+    font-size: 1.5rem;
+}
+.logo {
+    max-width: 100%;
+}
+/* padding */
+.pt-6 {
+    padding-top: 6rem!important;
+}
+.px-6 {
+    padding-right: 6rem!important;
+    padding-left: 6rem!important;
+}
+/* border */
+.ms-border-blue {
+    box-sizing: content-box;
+    border: 2px solid!important;
+    padding: 0.25rem;
+    color: rgb(var(--blue-color));
+}
+.ms-rounded {
+    border-radius: 1rem;
+}
+.ms-rounded-mini {
+    border-radius: 0.9rem;
+}
+.border-bottom-thumb {
+    border-bottom: 2px solid;
+}
+/* button */
+button {
+    line-height: 1;
+}
+.ms-bg-primary {
+    background-color: rgb(var(--blue-color));
+}
+.ms-btn-dark {
+    background-color:rgb(var(--dark-color));
+    outline: 2px solid rgb(var(--dark-color));
+    border: 2px solid rgb(var(--dark-color));
+    color: white;
+}
+.ms-btn-warning {
+    background-color: rgb(var(--ms-warning-color));
+    outline: 2px solid rgb(var(--ms-warning-color));
+    border: 2px solid rgb(var(--ms-warning-color));
+    color: white;
+}
+.ms-btn-primary {
+    background-color: rgb(var(--blue-color));
+    outline: 2px solid rgb(var(--blue-color));border: 2px solid rgb(var(--blue-color));
+    color: white;
+}
+.ms-btn-secondary {
+    background-color: rgb(var(--ms-btn-secondary-color));
+    outline: 2px solid rgb(var(--ms-btn-secondary-color));
+    border: 2px solid rgb(var(--ms-btn-secondary-color));
+}
+.btn-light {
+    background-color: white;
+    outline: 2px solid white;
+    border: 2px solid white;
+}
+.btn-light:hover,
+.btn-light:focus {
+    background-color: white;
+}
+.ms-btn-secondary:hover,
+.ms-btn-secondary:focus,
+.ms-btn-warning:hover,
+.ms-btn-warning:focus,
+.btn-light:hover,
+.btn-light:focus {
+    border-color: black;
+}
+.ms-btn-dark:hover,
+.ms-btn-dark:focus,
+.ms-btn-primary:hover,
+.ms-btn-primary:focus {
+    border-color:white;
+    color: white;
+}
+/* color */
+.ms-bg-secondary {
+    background-color: rgb(var(--ms-secondary-color));
+}
+.bg-black {
+    background-color: rgb(var(--font-base-color));
+}
+/* svg */
+.ms-chevron-down {
+    content: url("../img/chevron-down-solid.svg");
+    height: 0.8rem;
+}
+.fill-white {
+    fill:white;
+}
+img.position-absolute {
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.header-bottom a:hover {
+    color: rgb(var(--blue-color))!important;
+}
+/* focus */
+.header-bottom a:focus {
+    color: rgb(var(--blue-color))!important;
+}
+.header-bottom a:focus > span {
+    fill: rgb(var(--blue-color))!important;
+}
+.header-bottom a:focus .ms-chevron-down{
+    transform: rotate(180deg);
+}
+/* hover */
+#lg-header-lens:hover {
+    cursor: pointer;
+}
+.header-bottom form a:hover {
+    cursor: pointer;
+}
+.hover-border:hover {
+    border: 3px solid lightgrey;
+    cursor: pointer;
+}
+.header-bottom .collapse#dropdown .list-inline .list-inline-item a:hover {
+    cursor: pointer;
+}
+/* header */
+.header {
+    z-index: 100;
+}
+.header-top .logo {
+    height: var(--h-header-top);
+    width: 100px;
+}
+.navbar-toggler.collapsed {
+    outline: 1px solid lightgrey;
+}
+.navbar-toggler.collpasing,
+.navbar-toggler.collapse.show  {
+    outline: 3px solid lightgrey;
+}
+.navbar-toggler[aria-expanded="true"]:focus {
+    outline: 3px solid grey;
+}
+.navbar-light .navbar-toggler {
+    border-color: grey;
+}
+/* collapse */
+.collapse#dropdown hr {
+    height: 2px;
+    width: 100%;
+}
+#navbarScrool .d-lg-none a:hover {
+    cursor: pointer;
+}
+.header-bottom btn:hover {
+    border: 2px solid white;
+}
+/* from js .. .collapsed */
+.header-bottom a.collapsed {
+    color: black!important;
+}
+.header-bottom a.collapsed .ms-chevron-down{
+    transform: rotate(360deg);
+}
+/* jumbotron */
+#header-jumbo {
+    background-image: url("../img/jumbo-bg.png");
+    height: 700px;
+    padding-top:100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.pt-jumbo {
+    padding-top: 12rem;
+}
+#main-jumbo {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+/* main */
+main > header img:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+button:hover {
+    border:3px solid rgba(245, 245, 245, 0.849);
+}
+
+#title-label-blue {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+#nuoveUscite {
+    font-size: 1rem;
+}
+
+#psplus .btn-light {
+    background-color: lightgrey;
+    border-color: lightgrey;
+}
+/* footer */
+footer a:visited {
+    color: white;
+}
+.footer-bottom {
+    font-size: 1rem;
+}
+/* schermi lg */
+/*  X-Large devices (larger desktops, 1200px and up) */
+@media screen and (min-width: 1200px) { 
+    .w-lg-50 {
+        width: 50%!important;
+        max-width: 50%!important;
+    }
+    .w-lg-40 {
+        width: 40%!important;
+        max-width: 40%!important;
+    }
+
+}
+
+
+.header-bottom ul.d-flex-justify-content-center.py-3::marker {
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.disc-blue {
+    display: inline-block;
+    height: 0.2rem;
+    width: 0.2rem;
+    border-radius: 50%;
+    background-color: rgb(var(--blue-color));
+}
